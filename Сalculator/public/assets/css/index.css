@@ -1,0 +1,56 @@
+@import "reset.css";
+
+body {
+    background-color: blue;
+}
+
+.container .title {
+    text-align: center;
+    font-size: 5em;
+}
+
+.calculate {
+    align-content: center;
+    text-align: center;
+    margin: 5% auto;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: black;
+    box-shadow: 2px 2px 5px 5px gray;
+}
+
+.calculate-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calculate-buttons .calculate-button, #calculate_submit {
+    padding: 20px 45px;
+    margin: 15px;
+    background-color: gray;
+    cursor: pointer;
+    background-color: darkgray;
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+
+.calculate-buttons .calculate-button:hover {
+    background-color: gray;
+}
+
+#calculate_submit:hover {
+    background-color: orangered;
+}
+
+#input_expression {
+    border-radius: 20px;
+    margin: 15% 0;
+    padding: 30px 50px;
+    font-size: 25px
+}
+
+#calculate_submit {
+    background-color: red;
+    width: 140px;
+}
