@@ -15,11 +15,16 @@
     box-shadow: 3px 3px 3px rgb(32, 32, 32);
 }
 .screen{
-    height: 125px;
+    height: 75px;
+    width: 100%;
     padding: 12px;
     display: grid;
     justify-items: end;
     align-items: end;
+    background-color:#525252 ;
+    margin: 20px;
+    margin-left: -10px;
+    border-radius: 26px;
 }
 .screen p {
     text-align: right;
@@ -48,6 +53,12 @@
 }
 .btn.zero{
     grid-area:zero  ;
+    width: 100%;
+    border-radius: 34px;
+}
+.btn.ac{
+    grid-column-start: 1;
+    grid-column-end: 4;
     width: 100%;
     border-radius: 34px;
 }
